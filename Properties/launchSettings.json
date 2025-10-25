@@ -37,5 +37,13 @@
       "applicationUrl": "http://localhost:4090",
       "sslPort": 0
     }
+  },
+  "MarketplaceEvent": {
+    "commandName": "Project",
+    "environmentVariables": {
+      "ASPNETCORE_ENVIRONMENT": "Development",
+      "KAFKA__BOOTSTRAPSERVERS": "localhost:9092"
+    }
   }
 }
+
